@@ -7,7 +7,7 @@
 
 .treeNav .row {
     padding: 0 0 0 16px;
-    line-height: 24px;
+    line-height: 11px;
 }
 
 .treeNav .elmSpan {
@@ -30,7 +30,7 @@
 .treeNav .elmBlock {
     cursor: row-resize;
     background: url(treePic/line.png) repeat-y 0 0;
-    background-size: 16px 22px;
+    background-size: 16px 11px;
 }
 
 .treeNav .elmBox {
@@ -56,17 +56,17 @@
 
 .treeNav .folder {
     background: url(treePic/line.png) repeat-y 0 0;
-    background-size: 16px 22px;
+    background-size: 16px 11px;
 }
 
 .treeNav .root.elmBlock > .row {
     background-image: url(treePic/folderRoot.png);
-    background-size: 16px 22px;
+    background-size: 16px 11px;
 }
 
 .treeNav .root.open.elmBlock > .row {
     background-image: url(treePic/openRoot.png);
-    background-size: 16px 22px;
+    background-size: 16px 11px;
 }
 
 .treeNav .elmBlock .row {
@@ -75,7 +75,7 @@
 
 .treeNav .folder > .row {
     background-image: url(treePic/folder.png);
-    background-size: 16px 22px;
+    background-size: 16px 11px;
 }
 
 .treeNav .elmList > li:last-child,
@@ -85,44 +85,44 @@
 
 .treeNav .elmList > li.folder:last-child > .row {
     background-image: url(treePic/folderLast.png);
-    background-size: 16px 22px;
+    background-size: 16px 11px;
 }
 
 .treeNav .elmList > li.node:last-child > .row,
 .treeNav .empty.elmBlock > li:last-child > .row {
     background-image: url(treePic/nodeLast.png);
-    background-size: 16px 22px;
+    background-size: 16px 11px;
 }
 
 .treeNav .open > .row {
     background-image: url(treePic/open.png);
-    background-size: 16px 22px;
+    background-size: 16px 11px;
 }
 
 .treeNav .elmList > li.open:last-child > .row {
     background-image: url(treePic/openLast.png);
-    background-size: 16px 22px;
+    background-size: 16px 11px;
 }
 
 .treeNav .open.root > .row {
     background-image: url(treePic/open.png);
-    background-size: 16px 22px;
+    background-size: 16px 11px;
 }
 
 .treeNav .empty > .row {
     background-image: url(treePic/node.png);
-    background-size: 16px 22px;
+    background-size: 16px 11px;
 }
 
 .treeNav .elmList > li.node:last-child > .row {
     background-image: url(treePic/nodeLast.png);
-    background-size: 16px 22px;
+    background-size: 16px 11px;
 }
 
 .treeNav .node .row {
     margin: 0;
     white-space: nowrap;
     background: url(treePic/node.png) no-repeat 0 0;
-    background-size: 16px 22px;
+    background-size: 16px 11px;
     cursor: default;
 }
